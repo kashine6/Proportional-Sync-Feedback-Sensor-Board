@@ -55,7 +55,11 @@ You can compensate for this in firmware configuration.
 If your MMU board's ADC pin **does not** include a pull-up resistor and you want a perfectly accurate voltage reading:
  You may **move the 0-ohm resistor** on the PSF board to an alternate position to eliminate any offset.
 
-<img src="assets/6.png" alt="6" style="zoom:50%;" />
+<img src="Assets/6.png" width="70%"/>
+
+
+
+
 
 ------
 
