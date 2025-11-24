@@ -1,12 +1,12 @@
-# PFS (Proportional Feedback Sensor) for MMU
+# PSF (Proportional Sync Feedback) Sensor for MMU
 
-This is a Proportional Feedback Sensor solution designed for MMU systems.
+This is a Proportional Sync Feedback Sensor solution designed for MMU systems.
 
 <img src="Assets/8.png" width="70%"/>
 
 
 
-## 🧩 What Is a Proportional Feedback Sensor?
+## 🧩 What Is a Proportional Sync Feedback Sensor?
 
 A *Proportional Feedback Sensor* is a more advanced type of feedback sensor solution.
 Compared to other feedback solutions, it:
@@ -101,4 +101,12 @@ To use this feature right now, you must switch to igiannakas’ branch:
  https://github.com/igiannakas/Happy-Hare/tree/proportional-sync-feedback-control-fixes
 
 
+
+You need to adjust the configuration in the `mmu_hardware.cfg` file within HappyHare according to the situation.
+
+```
+sync_feedback_fps_set_point: 0.5
+sync_feedback_fps_range_multiplier: 1.1
+sync_feedback_fps_reversed: True
+```
 
